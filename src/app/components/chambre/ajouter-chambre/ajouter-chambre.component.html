@@ -1,0 +1,144 @@
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<div class="flex items-center justify-center p-12">
+
+  <!-- Author: FormBold Team -->
+  <!-- Learn More: https://formbold.com -->
+  <div class="mx-auto w-full max-w-[550px] bg-white">
+    <a href="#" class="bg-gray-200 hover:bg-gray-100 border-b-4 border-gray-400 hover:border-gray-200 text-black text-center py-2 px-4 rounded">
+      Retour
+    </a>
+    <br> <br>
+    <form action="https://formbold.com/s/FORM_ID" method="POST">
+      <div class="mb-5">
+        <label
+          for="numCh"
+          class="mb-3 block text-base font-medium text-[#07074D]"
+        >
+          Numero de la chambre
+        </label>
+        <input
+          type="text"
+          name="numCh"
+          id="numCh"
+          placeholder="Entrez le numero"
+          class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+        />
+      </div>
+      <div class="mb-5">
+        <div class="mb-3 xl:w-96">
+          <label for="nbrCh" class="mb-3 block text-base font-medium text-[#07074D]"
+          >Nombre de personnes</label
+          >
+          <input
+            type="number"
+            class="
+        form-control
+        block
+        w-full
+        px-3
+        py-1.5
+        text-base
+        font-normal
+        text-gray-700
+        bg-white bg-clip-padding
+        border border-solid border-gray-300
+        rounded
+        transition
+        ease-in-out
+        m-0
+        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+      "
+            id="nbrCh"
+            placeholder="Entrez le nombre de personnes"
+          />
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <div>
+          <div class="form-check">
+            <input class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label inline-block text-gray-800" for="flexRadioDefault1">
+              Allouee
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label inline-block text-gray-800" for="flexRadioDefault2">
+              Non alloue
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="mb-5">
+        <label
+          for="telCh"
+          class="mb-3 block text-base font-medium text-[#07074D]"
+        >
+          Telephone de la chambre
+        </label>
+        <input
+          type="text"
+          name="telCh"
+          id="telCh"
+          placeholder="Entrez le numero de telephone"
+          class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+        />
+      </div>
+      <div class="mb-5">
+        <label
+          for="typeCh"
+          class="mb-3 block text-base font-medium text-[#07074D]"
+        >
+          Type de la chambre
+        </label>
+        <input
+          type="text"
+          name="typeCh"
+          id="typeCh"
+          placeholder="Entrez le type de telephone"
+          class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+        />
+      </div>
+      <div class="mb-5">
+        <div class="mb-3 xl:w-96">
+          <label for="prixCh" class="mb-3 block text-base font-medium text-[#07074D]"
+          >Prix de la chambre</label
+          >
+          <input
+            type="number"
+            class="
+        form-control
+        block
+        w-full
+        px-3
+        py-1.5
+        text-base
+        font-normal
+        text-gray-700
+        bg-white bg-clip-padding
+        border border-solid border-gray-300
+        rounded
+        transition
+        ease-in-out
+        m-0
+        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+      "
+            id="prixCh"
+            placeholder="Entrez le prix de la chambre"
+          />
+        </div>
+      </div>
+      <div>
+        <button
+          class="hover:shadow-form w-full rounded-md bg-[#6A64F1] py-3 px-8 text-center text-base font-semibold text-white outline-none"
+        >
+          Ajouter la chambre
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

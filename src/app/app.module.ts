@@ -2,12 +2,6 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { ClientComponent } from './components/client/client.component';
-import { FactureComponent } from './components/facture/facture.component';
-import { ReservationComponent } from './components/reservation/reservation.component';
-import { ReceptionnisteComponent } from './components/receptionniste/receptionniste.component';
-import { ServiceHotelComponent } from './components/service-hotel/service-hotel.component';
-import { ServiceChambreComponent } from './components/service-chambre/service-chambre.component';
 import { AjouterChambreComponent } from './components/chambre/ajouter-chambre/ajouter-chambre.component';
 import { LoginComponent } from './components/login/login.component';
 import {HttpClientJsonpModule, HttpClientModule} from "@angular/common/http";
@@ -39,12 +33,6 @@ import { SupprimerServiceHotelComponent } from './components/serviceHotel/suppri
   declarations: [
     AppComponent,
     NavbarComponent,
-    ClientComponent,
-    FactureComponent,
-    ReservationComponent,
-    ReceptionnisteComponent,
-    ServiceHotelComponent,
-    ServiceChambreComponent,
     AjouterChambreComponent,
     LoginComponent,
     HomeComponent,

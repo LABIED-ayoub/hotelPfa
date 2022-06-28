@@ -22,12 +22,15 @@ import { AjouterReservationComponent } from './components/reservation/ajouter-re
 import { ModifierReservationComponent } from './components/reservation/modifier-reservation/modifier-reservation.component';
 import { SupprimerReservationComponent } from './components/reservation/supprimer-reservation/supprimer-reservation.component';
 import { AjouterServiceChambreComponent } from './components/serviceChambre/ajouter-service-chambre/ajouter-service-chambre.component';
-import { MidifierServiceChambreComponent } from './components/serviceChambre/midifier-service-chambre/midifier-service-chambre.component';
+import { ModifierServiceChambreComponent } from './components/serviceChambre/modifier-service-chambre/modifier-service-chambre.component';
 import { SupprimerServiceChambreComponent } from './components/serviceChambre/supprimer-service-chambre/supprimer-service-chambre.component';
 import { AjouterServiceHotelComponent } from './components/serviceHotel/ajouter-service-hotel/ajouter-service-hotel.component';
 import { ModifierServiceHotelComponent } from './components/serviceHotel/modifier-service-hotel/modifier-service-hotel.component';
 import { SupprimerServiceHotelComponent } from './components/serviceHotel/supprimer-service-hotel/supprimer-service-hotel.component';
 import { AccueilComponent } from './components/accueil/accueil.component';
+import { AjouterUserComponent } from './components/utilisateur/ajouter-user/ajouter-user.component';
+import { ModifierUserComponent } from './components/utilisateur/modifier-user/modifier-user.component';
+import { SupprimerUserComponent } from './components/utilisateur/supprimer-user/supprimer-user.component';
 
 
 @NgModule({
@@ -52,12 +55,15 @@ import { AccueilComponent } from './components/accueil/accueil.component';
     ModifierReservationComponent,
     SupprimerReservationComponent,
     AjouterServiceChambreComponent,
-    MidifierServiceChambreComponent,
     SupprimerServiceChambreComponent,
     AjouterServiceHotelComponent,
     ModifierServiceHotelComponent,
     SupprimerServiceHotelComponent,
     AccueilComponent,
+    AjouterUserComponent,
+    ModifierUserComponent,
+    SupprimerUserComponent,
+    ModifierServiceChambreComponent,
   ],
   imports: [
     BrowserModule,

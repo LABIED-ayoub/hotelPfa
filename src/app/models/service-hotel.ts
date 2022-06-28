@@ -1,7 +1,7 @@
 export class ServiceHotel {
-  private idServiceHo: number;
-  private nomServiceHo: string;
-  private prixSerciceHo: number;
+   idServiceHo: number;
+   nomServiceHo: string;
+   prixSerciceHo: number;
 
   constructor() {
     this.idServiceHo = Math.floor((Math.random() * 100) + 1);

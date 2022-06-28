@@ -1,11 +1,11 @@
 export class Client {
-  private numCli: number;
-  private nomCli: string;
-  private prenomCli: string;
-  private nationnalite: string;
-  private telephone: string;
-  private email: string;
-  private adresse: string;
+   numCli: number;
+   nomCli: string;
+   prenomCli: string;
+   nationnalite: string;
+   telephone: string;
+   email: string;
+   adresse: string;
 
   constructor() {
     this.numCli = Math.floor((Math.random() * 1000) + 1);

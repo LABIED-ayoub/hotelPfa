@@ -1,5 +1,5 @@
 export class Chambre {
-   idCh: number;
+   numCh: number;
    nbrPerso: number;
    alloue: boolean;
    telChambre: string;
@@ -15,7 +15,7 @@ export class Chambre {
     this.type = type;
   }*/
   constructor() {
-    this.idCh = Math.floor((Math.random() * 100) + 1);
+    this.numCh = Math.floor((Math.random() * 100) + 1);
     this.nbrPerso = 0;
     this.alloue = false;
     this.telChambre = "";

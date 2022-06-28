@@ -1,6 +1,6 @@
 export class ServiceChambre {
-  private idServCh: number;
-  private nomServCh: string;
+   idServCh: number;
+   nomServCh: string;
 
   constructor() {
     this.idServCh = Math.floor((Math.random() * 100) + 1);

@@ -1,9 +1,9 @@
 export class Utilisateur {
-  private idUti: number;
-  private username: string;
-  private emailUti: string;
-  private password: string;
-  private type: string;
+  idUti: number;
+  username: string;
+  emailUti: string;
+  password: string;
+  type: string;
 
   constructor() {
     this.idUti = Math.floor((Math.random() * 1000) + 1);

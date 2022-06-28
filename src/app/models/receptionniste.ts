@@ -1,9 +1,9 @@
 export class Receptionniste {
 
-  private matriculeRec: number;
-  private nomRec: string;
-  private prenomRec: string;
-  private salaire: number;
+   matriculeRec: number;
+   nomRec: string;
+   prenomRec: string;
+   salaire: number;
 
   constructor() {
     this.matriculeRec = Math.floor((Math.random() * 100) + 1);

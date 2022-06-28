@@ -1,15 +1,19 @@
+<a href="/home" class="bg-gray-200 hover:bg-gray-100 border-b-4 border-gray-400 hover:border-gray-200 text-black text-center py-2 px-4 rounded">
+  Retour
+</a>
+<br> <br>
 <h2>La liste des chambres</h2>
 <table class="table-striped">
   <thead>
   <tr>
-    <th>Num Chambre</th>
-    <th>fr</th>
-    <th>Year</th>
+    <th>Numero Chambre</th>
+    <th>Nombre de personnes</th>
+    <th>allouée</th>
   </tr>
   </thead>
   <tbody>
   <tr *ngFor="let chambre of chambres">
-    <td>{{chambre.idCh}}</td>
+    <td>{{chambre.numCh}}</td>
     <td>{{chambre.nbrPerso}}</td>
     <td>{{chambre.telChambre}}</td>
   </tr>

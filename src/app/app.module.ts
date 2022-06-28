@@ -27,6 +27,7 @@ import { SupprimerServiceChambreComponent } from './components/serviceChambre/su
 import { AjouterServiceHotelComponent } from './components/serviceHotel/ajouter-service-hotel/ajouter-service-hotel.component';
 import { ModifierServiceHotelComponent } from './components/serviceHotel/modifier-service-hotel/modifier-service-hotel.component';
 import { SupprimerServiceHotelComponent } from './components/serviceHotel/supprimer-service-hotel/supprimer-service-hotel.component';
+import { AccueilComponent } from './components/accueil/accueil.component';
 
 
 @NgModule({
@@ -56,6 +57,7 @@ import { SupprimerServiceHotelComponent } from './components/serviceHotel/suppri
     AjouterServiceHotelComponent,
     ModifierServiceHotelComponent,
     SupprimerServiceHotelComponent,
+    AccueilComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,10 +1,10 @@
 export class Chambre {
-  private idCh: number;
-  private nbrPerso: number;
-  private alloue: boolean;
-  private telChambre: string;
-  private prixCh: number;
-  private typeCh: string;
+   idCh: number;
+   nbrPerso: number;
+   alloue: boolean;
+   telChambre: string;
+   prixCh: number;
+   typeCh: string;
 
 /*  constructor(id: number, nbrPerso: number, alloue: boolean, telChambre: string, prix: number, type: string) {
     this.id = id;

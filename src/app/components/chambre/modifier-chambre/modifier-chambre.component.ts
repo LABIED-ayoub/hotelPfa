@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Chambre} from "../../../models/chambre";
 
 @Component({
   selector: 'app-modifier-chambre',
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ModifierChambreComponent implements OnInit {
 
+  chambres!: Chambre[];
   constructor() { }
 
   ngOnInit(): void {

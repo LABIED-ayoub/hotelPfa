@@ -12,15 +12,6 @@ import {SupprimerClientComponent} from "./components/client/supprimer-client/sup
 import {AjouterFactureComponent} from "./components/facture/ajouter-facture/ajouter-facture.component";
 import {ModifierFactureComponent} from "./components/facture/modifier-facture/modifier-facture.component";
 import {SupprimerFactureComponent} from "./components/facture/supprimer-facture/supprimer-facture.component";
-import {
-  AjouterReceptionnisteComponent
-} from "./components/receptionniste/ajouter-receptionniste/ajouter-receptionniste.component";
-import {
-  ModifierReceptionnisteComponent
-} from "./components/receptionniste/modifier-receptionniste/modifier-receptionniste.component";
-import {
-  SupprimerReceptionnisteComponent
-} from "./components/receptionniste/supprimer-receptionniste/supprimer-receptionniste.component";
 import {AjouterReservationComponent} from "./components/reservation/ajouter-reservation/ajouter-reservation.component";
 import {
   ModifierReservationComponent
@@ -46,6 +37,17 @@ import {
 import {AjouterUserComponent} from "./components/utilisateur/ajouter-user/ajouter-user.component";
 import {ModifierUserComponent} from "./components/utilisateur/modifier-user/modifier-user.component";
 import {SupprimerUserComponent} from "./components/utilisateur/supprimer-user/supprimer-user.component";
+import {ListerUserComponent} from "./components/utilisateur/lister-user/lister-user.component";
+import {ListerChambreComponent} from "./components/chambre/lister-chambre/lister-chambre.component";
+import {ListerClientComponent} from "./components/client/lister-client/lister-client.component";
+import {ListerFactureComponent} from "./components/facture/lister-facture/lister-facture.component";
+import {ListerReservationComponent} from "./components/reservation/lister-reservation/lister-reservation.component";
+import {
+  ListerServiceChambreComponent
+} from "./components/serviceChambre/lister-service-chambre/lister-service-chambre.component";
+import {
+  ListerServiceHotelComponent
+} from "./components/serviceHotel/lister-service-hotel/lister-service-hotel.component";
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -61,9 +63,6 @@ const routes: Routes = [
   { path: 'ajouterFacture', component: AjouterFactureComponent},
   { path: 'modifierFacture', component: ModifierFactureComponent},
   { path: 'supprimerFacture', component: SupprimerFactureComponent},
-  { path: 'ajouterReceptionniste', component: AjouterReceptionnisteComponent},
-  { path: 'modifierReceptionniste', component: ModifierReceptionnisteComponent},
-  { path: 'supprimerReceptionniste', component: SupprimerReceptionnisteComponent},
   { path: 'ajouterReservation', component: AjouterReservationComponent},
   { path: 'modifierReservation', component: ModifierReservationComponent},
   { path: 'supprimerReservation', component: SupprimerReservationComponent},
@@ -75,7 +74,14 @@ const routes: Routes = [
   { path: 'supprimerServiceHotel', component: SupprimerServiceHotelComponent},
   { path: 'ajouterUser', component: AjouterUserComponent},
   { path: 'modifierUser', component: ModifierUserComponent},
-  { path: 'supprimerUser', component: SupprimerUserComponent}
+  { path: 'supprimerUser', component: SupprimerUserComponent},
+  { path: 'listerUser', component: ListerUserComponent},
+  { path: 'listerChambre', component: ListerChambreComponent},
+  { path: 'listerClient', component: ListerClientComponent},
+  { path: 'listerFacture', component: ListerFactureComponent},
+  { path: 'listerReservation', component: ListerReservationComponent},
+  { path: 'listerServiceChambre', component: ListerServiceChambreComponent},
+  { path: 'listerServiceHotel', component: ListerServiceHotelComponent}
 
 ];
 

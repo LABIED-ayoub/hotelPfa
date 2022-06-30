@@ -15,9 +15,6 @@ import { SupprimerChambreComponent } from './components/chambre/supprimer-chambr
 import { AjouterFactureComponent } from './components/facture/ajouter-facture/ajouter-facture.component';
 import { ModifierFactureComponent } from './components/facture/modifier-facture/modifier-facture.component';
 import { SupprimerFactureComponent } from './components/facture/supprimer-facture/supprimer-facture.component';
-import { AjouterReceptionnisteComponent } from './components/receptionniste/ajouter-receptionniste/ajouter-receptionniste.component';
-import { ModifierReceptionnisteComponent } from './components/receptionniste/modifier-receptionniste/modifier-receptionniste.component';
-import { SupprimerReceptionnisteComponent } from './components/receptionniste/supprimer-receptionniste/supprimer-receptionniste.component';
 import { AjouterReservationComponent } from './components/reservation/ajouter-reservation/ajouter-reservation.component';
 import { ModifierReservationComponent } from './components/reservation/modifier-reservation/modifier-reservation.component';
 import { SupprimerReservationComponent } from './components/reservation/supprimer-reservation/supprimer-reservation.component';
@@ -31,6 +28,11 @@ import { AccueilComponent } from './components/accueil/accueil.component';
 import { AjouterUserComponent } from './components/utilisateur/ajouter-user/ajouter-user.component';
 import { ModifierUserComponent } from './components/utilisateur/modifier-user/modifier-user.component';
 import { SupprimerUserComponent } from './components/utilisateur/supprimer-user/supprimer-user.component';
+import { ListerReservationComponent } from './components/reservation/lister-reservation/lister-reservation.component';
+import { ListerServiceChambreComponent } from './components/serviceChambre/lister-service-chambre/lister-service-chambre.component';
+import { ListerServiceHotelComponent } from './components/serviceHotel/lister-service-hotel/lister-service-hotel.component';
+import { ListerUserComponent } from './components/utilisateur/lister-user/lister-user.component';
+import { ListerChambreComponent } from './components/chambre/lister-chambre/lister-chambre.component';
 
 
 @NgModule({
@@ -48,9 +50,6 @@ import { SupprimerUserComponent } from './components/utilisateur/supprimer-user/
     AjouterFactureComponent,
     ModifierFactureComponent,
     SupprimerFactureComponent,
-    AjouterReceptionnisteComponent,
-    ModifierReceptionnisteComponent,
-    SupprimerReceptionnisteComponent,
     AjouterReservationComponent,
     ModifierReservationComponent,
     SupprimerReservationComponent,
@@ -64,6 +63,11 @@ import { SupprimerUserComponent } from './components/utilisateur/supprimer-user/
     ModifierUserComponent,
     SupprimerUserComponent,
     ModifierServiceChambreComponent,
+    ListerReservationComponent,
+    ListerServiceChambreComponent,
+    ListerServiceHotelComponent,
+    ListerUserComponent,
+    ListerChambreComponent,
   ],
   imports: [
     BrowserModule,

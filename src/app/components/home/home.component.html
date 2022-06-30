@@ -33,7 +33,7 @@
   </div>
 </nav>
 <div class="mb-8">
-<div class="flex h-screen flex-col items-center justify-center space-y-6 bg-gray-100 px-4 sm:flex-row sm:space-x-6 sm:space-y-0">
+<div class="row">
   <div class="w-full max-w-sm overflow-hidden rounded-lg bg-white shadow-md duration-300 hover:scale-105 hover:shadow-xl">
     <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto mt-8 h-16 w-16 text-green-400" viewBox="0 0 20 20" fill="currentColor">
       <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -43,6 +43,7 @@
       <button routerLink="/ajouterChambre" class="inline-block rounded-md bg-green-500 px-10 py-2 font-semibold text-green-100 shadow-md duration-75 hover:bg-green-400">Ajouter</button>
       <button routerLink="/modifierChambre" class="inline-block rounded-md bg-blue-500 px-6 py-2 font-semibold text-blue-100 shadow-md duration-75 hover:bg-blue-400">Modifier</button>
       <button routerLink="/supprimerChambre" class="inline-block rounded-md bg-red-500 px-6 py-2 font-semibold text-red-100 shadow-md duration-75 hover:bg-red-400">Supprimer</button>
+      <button routerLink="/listerChambre" class="inline-block rounded-md bg-yellow-500 px-6 py-2 font-semibold text-yellow-100 shadow-md duration-75 hover:bg-yellow-400">Lister</button>
     </div>
   </div>
   <div class="w-full max-w-sm overflow-hidden rounded-lg bg-white shadow-md duration-300 hover:scale-105 hover:shadow-xl">
@@ -54,6 +55,8 @@
       <button routerLink="/ajouterFacture" class="inline-block rounded-md bg-green-500 px-10 py-2 font-semibold text-green-100 shadow-md duration-75 hover:bg-green-400">Ajouter</button>
       <button routerLink="/modifierFacture" class="inline-block rounded-md bg-blue-500 px-6 py-2 font-semibold text-blue-100 shadow-md duration-75 hover:bg-blue-400">Modifier</button>
       <button routerLink="/supprimerFacture" class="inline-block rounded-md bg-red-500 px-6 py-2 font-semibold text-red-100 shadow-md duration-75 hover:bg-red-400">Supprimer</button>
+      <button routerLink="/listerFacture" class="inline-block rounded-md bg-yellow-500 px-6 py-2 font-semibold text-yellow-100 shadow-md duration-75 hover:bg-yellow-400">Lister</button>
+
     </div>
   </div>
   <div class="w-full max-w-sm overflow-hidden rounded-lg bg-white shadow-md duration-300 hover:scale-105 hover:shadow-xl">
@@ -65,23 +68,12 @@
       <button routerLink="/ajouterReservation" class="inline-block rounded-md bg-green-500 px-10 py-2 font-semibold text-green-100 shadow-md duration-75 hover:bg-green-400">Ajouter</button>
       <button routerLink="/modifierReservation" class="inline-block rounded-md bg-blue-500 px-6 py-2 font-semibold text-blue-100 shadow-md duration-75 hover:bg-blue-400">Modifier</button>
       <button routerLink="/supprimerReservation" class="inline-block rounded-md bg-red-500 px-6 py-2 font-semibold text-red-100 shadow-md duration-75 hover:bg-red-400">Supprimer</button>
-    </div>
-  </div>
-  <div class="w-full max-w-sm overflow-hidden rounded-lg bg-white shadow-md duration-300 hover:scale-105 hover:shadow-xl">
-    <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto mt-8 h-16 w-16 text-red-500" viewBox="0 0 20 20" fill="currentColor">
-      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
-    </svg>
-    <h1 class="mt-2 text-center text-2xl font-bold text-gray-500">Gestion des receptionnistes</h1>
-    <div class="space-x-4 bg-gray-100 py-4 text-center">
-      <button routerLink="/ajouterReceptionniste" class="inline-block rounded-md bg-green-500 px-10 py-2 font-semibold text-green-100 shadow-md duration-75 hover:bg-green-400">Ajouter</button>
-      <button routerLink="/modifierReceptionniste" class="inline-block rounded-md bg-blue-500 px-6 py-2 font-semibold text-blue-100 shadow-md duration-75 hover:bg-blue-400">Modifier</button>
-      <button routerLink="/supprimerReceptionniste" class="inline-block rounded-md bg-red-500 px-6 py-2 font-semibold text-red-100 shadow-md duration-75 hover:bg-red-400">Supprimer</button>
+      <button routerLink="/listerReservation" class="inline-block rounded-md bg-yellow-500 px-6 py-2 font-semibold text-yellow-100 shadow-md duration-75 hover:bg-yellow-400">Lister</button>
     </div>
   </div>
 </div>
 </div>
-    <div class="flex h-screen flex-col items-center justify-center space-y-6 bg-gray-100 px-4 sm:flex-row sm:space-x-6 sm:space-y-0">
-
+    <div class="row">
     <div class="w-full max-w-sm overflow-hidden rounded-lg bg-white shadow-md duration-300 hover:scale-105 hover:shadow-xl">
     <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto mt-8 h-16 w-16 text-red-500" viewBox="0 0 20 20" fill="currentColor">
       <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
@@ -91,6 +83,7 @@
       <button routerLink="/ajouterServiceHotel" class="inline-block rounded-md bg-green-500 px-10 py-2 font-semibold text-green-100 shadow-md duration-75 hover:bg-green-400">Ajouter</button>
       <button routerLink="/modifierServiceHotel" class="inline-block rounded-md bg-blue-500 px-6 py-2 font-semibold text-blue-100 shadow-md duration-75 hover:bg-blue-400">Modifier</button>
       <button routerLink="/supprimerServiceHotel" class="inline-block rounded-md bg-red-500 px-6 py-2 font-semibold text-red-100 shadow-md duration-75 hover:bg-red-400">Supprimer</button>
+      <button routerLink="/listerServiceHotel" class="inline-block rounded-md bg-yellow-500 px-6 py-2 font-semibold text-yellow-100 shadow-md duration-75 hover:bg-yellow-400">Lister</button>
     </div>
   </div>
   <div class="w-full max-w-sm overflow-hidden rounded-lg bg-white shadow-md duration-300 hover:scale-105 hover:shadow-xl">
@@ -102,6 +95,7 @@
       <button routerLink="/ajouterServiceChambre" class="inline-block rounded-md bg-green-500 px-10 py-2 font-semibold text-green-100 shadow-md duration-75 hover:bg-green-400">Ajouter</button>
       <button routerLink="/modifierServiceChambre" class="inline-block rounded-md bg-blue-500 px-6 py-2 font-semibold text-blue-100 shadow-md duration-75 hover:bg-blue-400">Modifier</button>
       <button routerLink="/supprimerServiceChambre" class="inline-block rounded-md bg-red-500 px-6 py-2 font-semibold text-red-100 shadow-md duration-75 hover:bg-red-400">Supprimer</button>
+      <button routerLink="/listerServiceChambre" class="inline-block rounded-md bg-yellow-500 px-6 py-2 font-semibold text-yellow-100 shadow-md duration-75 hover:bg-yellow-400">Lister</button>
     </div>
   </div>
       <div class="w-full max-w-sm overflow-hidden rounded-lg bg-white shadow-md duration-300 hover:scale-105 hover:shadow-xl">
@@ -113,6 +107,7 @@
           <button routerLink="/ajouterClient" class="inline-block rounded-md bg-green-500 px-10 py-2 font-semibold text-green-100 shadow-md duration-75 hover:bg-green-400">Ajouter</button>
           <button routerLink="/modifierClient" class="inline-block rounded-md bg-blue-500 px-6 py-2 font-semibold text-blue-100 shadow-md duration-75 hover:bg-blue-400">Modifier</button>
           <button routerLink="/supprimerClient" class="inline-block rounded-md bg-red-500 px-6 py-2 font-semibold text-red-100 shadow-md duration-75 hover:bg-red-400">Supprimer</button>
+          <button routerLink="/listerClient" class="inline-block rounded-md bg-yellow-500 px-6 py-2 font-semibold text-yellow-100 shadow-md duration-75 hover:bg-yellow-400">Lister</button>
         </div>
       </div>
       <div class="w-full max-w-sm overflow-hidden rounded-lg bg-white shadow-md duration-300 hover:scale-105 hover:shadow-xl">
@@ -124,6 +119,7 @@
           <button routerLink="/ajouterUser" class="inline-block rounded-md bg-green-500 px-10 py-2 font-semibold text-green-100 shadow-md duration-75 hover:bg-green-400">Ajouter</button>
           <button routerLink="/modifierUser" class="inline-block rounded-md bg-blue-500 px-6 py-2 font-semibold text-blue-100 shadow-md duration-75 hover:bg-blue-400">Modifier</button>
           <button routerLink="/supprimerUser" class="inline-block rounded-md bg-red-500 px-6 py-2 font-semibold text-red-100 shadow-md duration-75 hover:bg-red-400">Supprimer</button>
+          <button routerLink="/listerUser" class="inline-block rounded-md bg-yellow-500 px-6 py-2 font-semibold text-yellow-100 shadow-md duration-75 hover:bg-yellow-400">Lister</button>
         </div>
       </div>
 </div>

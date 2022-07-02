@@ -33,6 +33,7 @@ import { ListerServiceChambreComponent } from './components/serviceChambre/liste
 import { ListerServiceHotelComponent } from './components/serviceHotel/lister-service-hotel/lister-service-hotel.component';
 import { ListerUserComponent } from './components/utilisateur/lister-user/lister-user.component';
 import { ListerChambreComponent } from './components/chambre/lister-chambre/lister-chambre.component';
+import {ChambreService} from "./services/chambre.service";
 
 
 @NgModule({
@@ -74,7 +75,7 @@ import { ListerChambreComponent } from './components/chambre/lister-chambre/list
     HttpClientModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ChambreService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

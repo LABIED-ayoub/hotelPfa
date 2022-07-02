@@ -7,7 +7,7 @@ import {Utilisateur} from "../models/utilisateur";
   providedIn: 'root'
 })
 export class UtilisateurService {
-  private baseURL = "http://localhost:8082/Utilisateur";
+  private baseURL = "http://localhost:8082/user";
   constructor(private httpClient: HttpClient) {}
   public getUtilisateurList(): Observable<Utilisateur[]>{
     return this.httpClient.get<Utilisateur[]>(`${this.baseURL}/all`);

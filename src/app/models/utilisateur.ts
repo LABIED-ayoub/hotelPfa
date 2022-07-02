@@ -1,15 +1,17 @@
 export class Utilisateur {
-  idUti: number;
-  username: string;
-  emailUti: string;
-  password: string;
+  id: number;
+  nom: string;
+  prenom: string;
+  userName: string;
+  userPassword: string;
   type: string;
 
   constructor() {
-    this.idUti = Math.floor((Math.random() * 1000) + 1);
-    this.username = "";
-    this.emailUti = "";
-    this.password = "";
+    this.id = Math.floor((Math.random() * 1000) + 1);
+    this.nom = "";
+    this.prenom = "";
+    this.userName = "";
+    this.userPassword = "";
     this.type = "";
   }
 }
